@@ -38,7 +38,6 @@ const coupon = { discount: 5000 };
 let copy = function(obj){
     var result = {};
     for(prop in obj){
-        // console.log(prop);
         result[prop] = obj[prop].map((item) =>{
             var dic = {};
             for(tag in item){
